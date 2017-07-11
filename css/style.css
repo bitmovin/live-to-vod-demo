@@ -1,0 +1,167 @@
+ul {
+    list-style-image: url('../images/bit-fav-white.png');
+}
+
+.live-vod h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.description-live {
+    width:        90%;
+    margin-right: auto;
+    margin-left:  auto;
+}
+
+.description-vod {
+    padding-top: 0px;
+    width:        90%;
+    margin-right: auto;
+    margin-left:  auto;
+}
+
+.description ul li {
+    padding-bottom: 20px;
+}
+
+.description h1 {
+    text-align: left;
+    margin: 2px
+}
+
+.description h3 {
+    text-align: left;
+    margin: 2px 2px 10px;
+}
+.verticalLine {
+    border-left: 3px solid #80acd3;
+}
+
+.player-wrapper {
+    width:        90%;
+    margin-right: auto;
+    margin-left:  auto;
+    -webkit-box-shadow: 0px 0px 42px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 42px -5px rgba(0,0,0,1);
+    box-shadow: 0px 0px 42px -5px rgba(0,0,0,1);
+}
+
+.player-wrapper > h2 {
+    margin: 10px;
+}
+
+.player-container {
+    width:        90%;
+    margin-right: auto;
+    margin-left:  auto;
+}
+
+.timeline-container {
+    width: 90%;
+    margin: auto;
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.timeline-container img {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.timeline-container img:hover {
+    background-color: #777;
+}
+
+.timeline-container .selected {
+    background-color: #1eabe3
+}
+
+#name {
+    border: 2px solid #ff931e;
+    font-family: "Open Sans",sans-serif;
+    height: 1em;
+    margin-top: 0.2em;
+    padding: 0.5em;
+    color: #333;
+    font-size: 1em;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageContainer {
+    float: left;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.imageContainer > img {
+    height: 170px;
+    width: 302px;
+    cursor: pointer;
+}
+
+.vods-list {
+    height: 290px;
+    list-style-type: none;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.timeline {
+    white-space:nowrap;
+}
+
+.timeline li {
+    display:inline;
+}
+
+.ui-widget-header p, .ui-widget-content p { margin: 0; }
+
+.ui-widget-content {
+    border: 1px solid crimson;
+    background: rgba(255, 147, 30, 0.3);
+    color: #333333;
+}
+
+#timeline-selector {
+    background: rgba(255, 147, 30, 0.3) top left;
+    width: 160px;
+    height: 98%;
+    position: absolute;
+}
+
+#timeline-selector2 {
+    background: rgba(255, 147, 30, 0.3) top left;
+    width: 160px;
+    height: 98%;
+    position: absolute;
+    resize: horizontal;
+    overflow: auto;
+    -webkit-user-drag: element;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.live-to-vod-image {
+    text-align: center;
+}
+
+.live-to-vod-image > img {
+    height: 280px;
+    border: 1px solid #fff;
+    max-width: 100%;
+    -webkit-box-shadow: 0px 0px 18px 8px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 18px 8px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 18px 8px rgba(0,0,0,0.21);
+}
