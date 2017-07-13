@@ -1,0 +1,9 @@
+{
+  "API_KEY": "YOUR-API-KEY",
+  "GCS_ACCESS_KEY": "GCS-ACCESS-KEY",
+  "GCS_SECRET_KEY": "GCS-SECRET-KEY",
+  "GCS_BUCKET_NAME": "my-gcs-bucket",
+  "GCS_PREFIX": "path/to/my/test/folder/",
+  "STREAM_KEY": "bitmovin",
+  "HTTP_ROOT_PATH" : "https://storage.googleapis.com/my-gcs-bucket/path/to/my/test/folder/"
+}
