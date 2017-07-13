@@ -214,37 +214,15 @@ function onLiveSegmentPlayback(url) {
 
 function loadVodPlayerWithManifest(manifests) {
     var playerVod = bitmovin.player("player-vod");
-    var confVod = {
-        key: playerKey,
-        source: {
-            dash: manifests.DASH
-        },
-        tweaks: {
-            max_buffer_level: 5
-        },
-        logs: {
-            level: "debug"
-        }
+    var sourceUrl = {
+        dash: manifests.DASH
     };
-    if (playerVod.isSetup()) {
-        var sourceUrl = {
-            dash: manifests.DASH
-        };
-        playerVod.load(sourceUrl).then(function () {
-            playerVod.play();
-        }, function (reason) {
-            console.log(reason);
-            console.log("Error while creating bitmovin player instance");
-        });
-    } else {
-        playerVod.setup(confVod).then(function () {
-            playerVod.play();
-        }, function (reason) {
-            // Error!
-            console.log(reason);
-            console.log("Error while creating bitmovin player instance");
-        });
-    }
+    playerVod.load(sourceUrl).then(function () {
+        playerVod.play();
+    }, function (reason) {
+        console.log(reason);
+        console.log("Error while creating bitmovin player instance");
+    });
 }
 function runVoDManifest(start, end, button, img) {
     var url = "getVodManifest.php?start=" + start + "&end=" + end;
