@@ -1,6 +1,6 @@
 # Live-to-VoD Demo
 # [![bitmovin](https://cloudfront-prod.bitmovin.com/wp-content/themes/Bitmovin-V-0.1/images/logo3.png)](http://www.bitmovin.com)
-This demo shows how to start a live stream and then creating a VoD manifests from the live stream using the [Bitmovin API](https://bitmovin.com/bitmovins-video-api/) and a Web-Application.
+This demo shows how to start a live stream and then creating VoD manifests from the live stream using the [Bitmovin API](https://bitmovin.com/bitmovins-video-api/) and a web application.
 
 ## Structure of the Demo
 - `css` - CSS folder
@@ -33,7 +33,7 @@ HTTP_ROOT_PATH - HTTP url to the folder on the bucket
 Example:
 ```json
 {
-  "API_KEY": "12345678-90ab-cdef-1234-567890abcdef",
+  "API_KEY": "YOUR-API-KEY",
   "GCS_ACCESS_KEY": "GCS-ACCESS-KEY",
   "GCS_SECRET_KEY": "GCS-SECRET-KEY",
   "GCS_BUCKET_NAME": "my-gcs-bucket",
